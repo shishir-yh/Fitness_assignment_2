@@ -1,0 +1,595 @@
+/* testing pourpose */
+.bdr {
+    border: 1px solid tomato;
+}
+
+.bdg {
+    border: 1px solid green;
+}
+
+/* font fast */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miamagon');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.playwrite-ar-font {
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* universal css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* desktop version */
+
+.desk {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* common gap between desk and content */
+.cmn {
+    margin: 0 5%;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.red-color {
+    color: rgba(230, 83, 60, 1);
+}
+
+/* navigation bar style start here */
+
+header {
+    background-color: rgba(17, 17, 17, 1);
+    opacity: .93;
+}
+
+/* fitness header  */
+.header>h3 {
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/* btn parent design  */
+.btn-container {
+    border: 1px solid black;
+    padding: 2.5px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+
+
+/* home ser con abt btn design  */
+.btn-items {
+    font-size: 1rem;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 3px;
+    padding: 6px;
+    background-color: black;
+}
+
+/* home bg clr fixed */
+.btn-items:nth-child(1) {
+    background: rgba(230, 83, 60, 1);
+}
+
+/* incon disign  */
+i {
+    font-size: 1.75rem;
+    color: white;
+    margin-top: 6px;
+}
+
+/* paragraph style  */
+.cmn-p {
+    font-size: 1rem;
+    font-weight: 600px;
+    color: white;
+}
+
+.nav-container {
+    justify-content: space-between;
+    padding: .5% 1.5%;
+}
+
+.icn-hand-burger {
+    display: none;
+}
+
+/* navigation bar style finish here  */
+/* --------------------------------- */
+/* get-body section start  */
+.get-body {
+    margin-top: 35px;
+}
+
+.get-body-container {
+    gap: 6%;
+    position: relative;
+}
+
+/* description of img child 1 */
+.get-body-descrip {
+    width: 47%;
+}
+
+.get-body-descrip-child {
+    margin: 4rem 0rem;
+}
+
+.get-body-descrip-child>h1 {
+    font-size: 4rem;
+    font-weight: 800px;
+    color: white;
+}
+
+.get-body-descrip-btn {
+    width: 100%;
+    margin-top: .75rem;
+}
+
+.jn-btn {
+    border-color: rgba(230, 83, 60, 1);
+}
+
+.dwl-btn {
+    border-color: white;
+}
+
+/* get body child 2 */
+.get-body-img {
+    width: 47%;
+}
+
+/* image of dimbol design  */
+.dimbol-img {
+    width: 300px;
+    max-width: 100%;
+}
+
+/* style 350+ and 500+ */
+
+.tutorial {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 10rem;
+    padding: 10px;
+    background-color: rgba(48, 48, 48, 0.54);
+    display: flex;
+    position: absolute;
+    bottom: 25%;
+    left: 45%;
+}
+
+.cmn-h-get {
+    font-weight: 50rem;
+    color: white;
+}
+
+.circle {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(230, 83, 60, 1);
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+    margin: 5px;
+}
+
+.workout {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 11rem;
+    padding: 10px 25px;
+    background-color: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+
+/* Change habits section start  */
+main {
+    background-color: black;
+}
+
+
+.cng-hab {
+    padding-top: 40px;
+    background-color: black;
+
+}
+
+.cng-hab-des {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cng-hab-des h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.cng-hab-des p {
+    padding-bottom: 10px;
+}
+
+
+.cng-hab-img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.cng-hab-img img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cng-hab-img h3 {
+    text-align: center;
+}
+
+.cng-hab-img p {
+    text-align: center;
+}
+
+/* run extra mile section start  */
+.run {
+    background-color: rgba(34, 34, 34, 1);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.run-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.run-des {
+    width: 40%;
+    margin-left: 25px;
+}
+
+.run-des h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.run-img {}
+
+.run-img img {
+    max-width: 350px;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.join-btn {
+    margin: 15px;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(230, 83, 60, 1);
+}
+
+/* Trainings section start   */
+.train-des {
+    margin: 1.5rem 0;
+}
+
+.cmn-header {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 800px;
+}
+
+.train-img img {
+    width: 300px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.train-img-1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    gap: none;
+}
+
+.train-img-2 {
+    display: grid;
+    grid-template-columns: 2.5fr 2fr 2.5fr;
+    gap: none;
+}
+
+
+.card {
+    position: relative;
+}
+
+.h-1 {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: white;
+}
+
+.h-2 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+}
+
+.h-4 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+}
+
+/* Meet our team  */
+
+.met-all {
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 10px;
+
+}
+
+.met-des {
+    text-align: center;
+}
+
+.met-img-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: .80rem;
+    gap: 10px;
+}
+
+.met-img-con img {
+    width: 250px;
+    height: 250px;
+    width: 100%;
+    border-radius: 8px;
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.met-card {
+    position: relative;
+}
+
+.img-des {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.img-des h5 {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.img-des h6 {
+    color: white;
+}
+
+/* Bmi calculation start her  */
+
+.bmi-con h3,
+th,
+td,
+p {
+    color: white;
+}
+
+.bmi-con h3,
+p {
+    padding: 1rem 0;
+}
+
+.bmi-con h3 {
+    font-size: 1.5rem;
+    padding: 0%;
+    font-weight: bolder;
+}
+
+.bmi-tbl th,
+td {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 5px 10px;
+
+}
+
+/* this is table  */
+.bmi-tbl {
+    border-collapse: collapse;
+    width: 100%;
+    padding-left: 10px;
+}
+
+/* this is form style  */
+
+
+.bmi-con {
+    display: flex;
+    gap: 15%;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+/* here design the form input   */
+input[type=number],
+select {
+    display: block;
+    font-size: 1rem;
+    padding: 8px 0px 8px 5px;
+    color: whitesmoke;
+    background-color: rgba(48, 48, 48, 1);
+    border-radius: 8px;
+    border: none;
+}
+
+input[type=number]::placeholder {
+    color: whitesmoke;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+#activity {
+    grid-column: 1/-1;
+}
+
+.bmi-chart {
+    width: 80%;
+    padding-top: 2rem;
+    padding-left: 10px;
+}
+
+.cal-bmi {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.bmi-form-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* environment of gym start  */
+.env {
+    background-color: black;
+}
+
+.env-vid-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    padding: 5px;
+
+}
+
+.vid-crd {
+    background-color: rgba(48, 48, 48, 1);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+}
+
+.vid-crd p {
+    padding: 10px;
+}
+
+
+video {
+    width: 300px;
+    height: 300px;
+    width: 100%;
+    background-color: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+
+/* footer style start  */
+footer {
+    background-color: rgba(48, 48, 48, 1);
+}
+
+.footer-con {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr;
+    gap: 5px;
+    padding-top: 3rem;
+}
+
+.fitness h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.footer-con h2 {
+    color: white;
+    padding: 1rem;
+}
+
+.footer-con h3 {
+    color: white;
+    padding: .5rem 0 .5rem 1rem;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    height: 2.5px;
+    color: rgba(255, 255, 255, 0.1);
+    width: 95%;
+    border-radius: 5px;
+}
+
+footer h6 {
+    margin-top: .5rem;
+    padding-bottom: .9rem;
+    text-align: center;
+    color: white;
+}

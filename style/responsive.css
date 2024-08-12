@@ -1,0 +1,119 @@
+@media screen and (max-width:576px) {
+
+    /* nav bar responsive */
+    .btn-container {
+        display: none;
+    }
+
+    .icn-hand-burger {
+        display: block;
+    }
+
+    /* get-body responsive */
+    .get-body-container {
+        flex-direction: column;
+    }
+
+    .get-body-descrip {
+        width: 100%;
+    }
+
+    .get-body-descrip h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .get-body-descrip br {
+        display: none;
+    }
+
+    .get-body-img {
+        width: 100%;
+    }
+
+    .dimbol-img {
+        margin-left: 60px;
+    }
+
+    .tutorial {
+        bottom: 10%;
+        left: 5%;
+    }
+
+    .workout {
+        left: 55%;
+        top: 45%;
+        display: none;
+    }
+
+    /* change your habit responsive */
+    .cng-hab-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cng-hab-img img {
+        width: 100%;
+    }
+
+    .run-cont {
+        flex-direction: column;
+    }
+
+    .run-des {
+        width: 100%;
+    }
+
+    .join-btn {
+        margin-left: 70px;
+        padding-left: 25%;
+        padding-right: 25%;
+
+    }
+
+    /* trainging and exercise  */
+
+    .train-img-1,
+    .train-img-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-1 {
+        display: none;
+    }
+
+    /* meet out team  */
+    .met-img-con {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .met-img-con img {
+        height: 300px;
+    }
+
+    /* bmi calculator  */
+    .bmi-con {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cal-bmi {
+        width: 100%;
+    }
+
+    .bmi-btn {
+        margin-left: 0%;
+    }
+
+    /* environment of gym start  */
+    .env-vid-con {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* footer style start  */
+    .footer-con {
+        grid-template-columns: 1fr;
+    }
+
+
+}
