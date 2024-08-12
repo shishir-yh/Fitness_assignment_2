@@ -492,13 +492,14 @@ input::-webkit-inner-spin-button {
 }
 
 .bmi-chart {
-    width: 50%;
+    justify-content: center;
+    width: 40%;
     padding-top: 2rem;
     /* padding-left: 10px; */
 }
 
 .cal-bmi {
-    width: 50%;
+    width: 60%;
     padding-top: 2rem;
 }
 

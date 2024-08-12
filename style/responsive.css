@@ -96,6 +96,15 @@
         gap: 20px;
     }
 
+    .bmi-chart {
+        width: 100%;
+    }
+
+    .bmi-chart h3 {
+        text-align: center;
+    }
+
+
     input[type=number],
     select {
         width: 100%;
@@ -105,10 +114,23 @@
         width: 100%;
     }
 
+    .cal-bmi h3,
+    p {
+        text-align: center;
+    }
 
+    .bmi-tbl {
+        width: 100%;
+
+    }
+
+    .cal-cen {
+        display: flex;
+    }
 
     .bmi-btn {
-        margin-left: 0%;
+        margin-left: 100%;
+        justify-self: center;
     }
 
     /* environment of gym start  */
