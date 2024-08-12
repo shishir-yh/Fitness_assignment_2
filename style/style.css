@@ -459,7 +459,7 @@ td {
 
 .bmi-con {
     display: flex;
-    gap: 15%;
+    gap: 15vw;
     background-color: rgba(34, 34, 34, 1);
 }
 
@@ -467,7 +467,7 @@ td {
 input[type=number],
 select {
     display: block;
-    width: 12rem;
+    width: 20vw;
     font-size: 1rem;
     padding: 8px 0px 8px 5px;
     color: whitesmoke;
@@ -498,7 +498,7 @@ input::-webkit-inner-spin-button {
 }
 
 .cal-bmi {
-    width: 100%;
+    width: 50%;
     padding-top: 2rem;
 }
 
