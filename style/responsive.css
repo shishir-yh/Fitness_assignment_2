@@ -144,5 +144,10 @@
         grid-template-columns: 1fr;
     }
 
+    .footer-con p {
+        text-align: left;
+        width: 80%;
+    }
+
 
 }
