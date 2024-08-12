@@ -467,6 +467,7 @@ td {
 input[type=number],
 select {
     display: block;
+    width: 12rem;
     font-size: 1rem;
     padding: 8px 0px 8px 5px;
     color: whitesmoke;
@@ -491,9 +492,9 @@ input::-webkit-inner-spin-button {
 }
 
 .bmi-chart {
-    width: 80%;
+    width: 50%;
     padding-top: 2rem;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .cal-bmi {
