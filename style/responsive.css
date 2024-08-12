@@ -64,6 +64,10 @@
         flex-direction: column;
     }
 
+    .run-cont h2 {
+        text-align: center;
+    }
+
     .run-des {
         width: 100%;
     }
@@ -76,6 +80,9 @@
     }
 
     /* trainging and exercise  */
+    .train-des h2 {
+        text-align: center;
+    }
 
     .train-img-1,
     .train-img-2 {
