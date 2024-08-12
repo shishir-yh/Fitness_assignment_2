@@ -467,7 +467,7 @@ td {
 input[type=number],
 select {
     display: block;
-    width: 20vw;
+    width: 18vw;
     font-size: 1rem;
     padding: 8px 0px 8px 5px;
     color: whitesmoke;
@@ -505,7 +505,7 @@ input::-webkit-inner-spin-button {
 .bmi-form-con {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 1vw;
 }
 
 /* environment of gym start  */

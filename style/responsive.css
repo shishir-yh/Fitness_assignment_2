@@ -96,9 +96,16 @@
         gap: 20px;
     }
 
+    input[type=number],
+    select {
+        width: 100%;
+    }
+
     .cal-bmi {
         width: 100%;
     }
+
+
 
     .bmi-btn {
         margin-left: 0%;
