@@ -41,9 +41,9 @@
     }
 
     .workout {
-        left: 55%;
+        left: 50%;
         top: 45%;
-        display: none;
+        /* display: none; */
     }
 
     /* change your habit responsive */
