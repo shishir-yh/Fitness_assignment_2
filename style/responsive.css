@@ -66,17 +66,22 @@
 
     .run-cont h2 {
         text-align: center;
+        width: 90%;
     }
 
     .run-des {
         width: 100%;
     }
 
-    .join-btn {
-        margin-left: 70px;
-        padding-left: 25%;
-        padding-right: 25%;
+    .run-des p {
+        width: 95%;
+        padding-left: 0;
 
+    }
+
+
+    .run-btn-con {
+        text-align: center;
     }
 
     /* trainging and exercise  */
