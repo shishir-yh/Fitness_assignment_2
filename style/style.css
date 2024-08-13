@@ -37,12 +37,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid green;
 }
 
-body {
-    border: 10px solid red;
-}
+
 
 /* desktop version */
 
